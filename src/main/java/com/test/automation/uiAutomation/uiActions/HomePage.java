@@ -10,7 +10,7 @@ public class HomePage {
 	WebDriver driver;
 	@FindBy(xpath=".//*[@id='header']/div[2]/div/div/nav/div[1]/a")
 	WebElement signIn;
-	
+	//test
 	
 	@FindBy(xpath=".//*[@id='email']")  
 	WebElement loginEmailAddress;
