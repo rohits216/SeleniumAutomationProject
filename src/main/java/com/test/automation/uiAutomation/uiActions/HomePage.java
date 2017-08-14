@@ -12,7 +12,7 @@ public class HomePage {
 	WebElement signIn;
 	
 	
-	@FindBy(xpath=".//*[@id='email']")
+	@FindBy(xpath=".//*[@id='email']")  
 	WebElement loginEmailAddress;
 	
 	@FindBy(xpath=".//*[@id='passwd']")
